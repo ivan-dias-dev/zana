@@ -1,15 +1,18 @@
 <template>
-  <Header />
+  <div>
+    <Header />
 
-  <Open />
+    <Open />
+    <h1>Congelados</h1>
+    <CardProdutosCongelados />
 
-  <BemVindo />
+    <Carrinho />
 
-  <Carrinho />
-  <Footer />
+    <Footer />
+  </div>
 </template>
-
-<script>
+    
+    <script>
 // @ is an alias to /src
 
 import Header from "@/components/Header.vue";
@@ -17,20 +20,24 @@ import Open from "@/components/Open.vue";
 import BemVindo from "@/components/BemVindo.vue";
 import Carrinho from "@/components/Carrinho.vue";
 import Footer from "@/components/Footer.vue";
+
+import CardProdutosCongelados from "@/components/CardProdutosCongelados.vue";
 export default {
-  name: "HomeView",
+  name: "Congelados",
   components: {
     Header,
     Open,
     BemVindo,
     Carrinho,
     Footer,
+    CardProdutosCongelados,
   },
 };
 </script>
-<style>
-.home {
-  background-color: bisque;
+    <style scoped>
+h1 {
+  background-color: rgb(190, 235, 235);
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 0 !important;
 }
 </style>

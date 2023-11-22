@@ -1,0 +1,130 @@
+
+
+  @media (min-width: 0) and (max-width: 400px) {
+    .imgs {
+      background-size: 10em;
+    }
+    .padding-extra {
+      padding: 0 0 0 0;
+    }
+    .texto_imagem {
+      font-size: 14px;
+    }
+    .texto_sobre {
+      font-size: 14px;
+    }
+  
+    .titulo-sobre {
+      font-size: 14px;
+    }
+  }
+  /*--------------------------------media queryes md ----------------------------------------------*/
+  @media (min-width: 400.1px) and (max-width: 600px) {
+    .imgs {
+      background-size: 100%;
+    }
+    .texto_imagem {
+      font-size: 15px;
+    }
+    .texto_sobre {
+      font-size: 15px;
+    }
+  
+    .padding-extra {
+      padding: 0 0 0 0;
+    }
+  }
+  /*--------------------------------media queryes lg----------------------------------------------*/
+  @media (min-width: 600.1px) and (max-width: 767px) {
+    .imgs {
+      background-size: 100%;
+    }
+    .texto_imagem {
+      font-size: 16px;
+    }
+  
+    .padding-extra {
+      padding: 0;
+    }
+    .texto_sobre {
+      font-size: 16px;
+    }
+  }
+  /*--------------------------------media queryes lg----------------------------------------------*/
+  @media (min-width: 768px) and (max-width: 992px) {
+    .imgs {
+      background-size: 15em;
+    }
+    .texto_imagem {
+      font-size: 16px;
+    }
+    .container,
+    .container-md,
+    .container-sm {
+      max-width: 100%;
+    }
+  
+    .padding-extra {
+      padding: 0 0 0 0;
+    }
+    .titulo-carrosel {
+      font-size: 42px;
+    }
+    .carousel-indicators {
+      bottom: -150px;
+    }
+    .texto_sobre {
+      font-size: 16px;
+    }
+  }
+  
+  .link-footer {
+    text-decoration: none;
+    color: #858585;
+  }
+  .link-footer:hover {
+    color: #000000;
+  }
+  
+/*--------------------------------media queryes xxlg----------------------------------------------*/
+@media (min-width: 993px) and (max-width: 1200px) {
+    .texto_imagem {
+      font-size: 16px;
+    }
+  
+    .titulo-carrosel {
+      font-size: 16px;
+    }
+    .carousel-caption {
+      font-size: 16px;
+    }
+    .carousel-indicators {
+      bottom: -270px;
+    }
+    .texto_sobre {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 1201px) and (max-width: 2000px) {
+    .texto_imagem {
+      font-size: 18px;
+    }
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      max-width: 90%;
+    }
+  
+    .texto_sobre {
+      font-size: 18px;
+    }
+    .imgs {
+        background-size: 15em;
+      }
+
+   
+  }
