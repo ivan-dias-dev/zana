@@ -33,6 +33,7 @@ export default createStore({
     },
     definirEndereco(state, endereco){
       state.endereco = endereco;
+      console.log(ola)
     }
   },
   actions: {
